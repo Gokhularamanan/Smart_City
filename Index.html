@@ -12,14 +12,14 @@
 
     <div class="grid">
 
-        <form action="https://httpbin.org/post" method="POST" class="form login">
+        <form  class="form login">
 
             <div class="form__field">
                 <label for="login__username">
               <!-- <svg class="icon"> <use xlink:href="#icon-user"></use> </svg>-->
                <img class="icon" src="assets/user.svg" alt="UserIcon">
              <span class="hidden">Username</span></label>
-                <input autocomplete="username" id="username" type="text" name="username" class="form__input" placeholder="Username" required>
+                <input autocomplete="username" id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
             </div>
 
             <div class="form__field">
@@ -32,12 +32,12 @@
 
             <div class="form__field">
                 <!-- <button type="button" value="Login" id="submit" onclick="validate()"><span class="clickme">LOGIN</span></button> -->
-                <input type="submit" onclick="validate()" value="Sign In">
+                <input type="button" id="submit" onclick="validate()" value="Sign In">
             </div>
 
         </form>
 
-        <p class="text--center">Not a member? <a href="#">Sign up now</a> <svg class="icon">
+        <p class="text--center">Forget Password ?  <a href="#">Create a new account</a> <svg class="icon">
           <use xlink:href="#icon-arrow-right"></use>
         </svg></p>
 
@@ -49,17 +49,17 @@
 
     <script>
         function validate() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
+            var username = document.getElementById("login__username").value;
+            var password = document.getElementById("login__password").value;
             if (username == "admin" && password == "admin") {
-                window.location = "Dashboard.html"; // Redirecting to other page.
+                window.location = "DashboardDark.html"; // Redirecting to other page.
                 return false;
             } else {
                 attempt--;
                 alert("You have left " + attempt + " attempt;");
                 if (attempt == 0) {
-                    document.getElementById("usrname").disabled = true;
-                    document.getElementById("pwd").disabled = true;
+                    document.getElementById("login__username").disabled = true;
+                    document.getElementById("login__password").disabled = true;
                     document.getElementById("submit").disabled = true;
                     return false;
                 }

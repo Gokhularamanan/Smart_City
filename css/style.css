@@ -136,7 +136,7 @@
     transition: background-color 0.3s;
   }
   
-  input[type="submit"] {
+  input[type="button"] {
     cursor: pointer;
   }
   
@@ -154,7 +154,7 @@
     width: 100%;
   }
   
-  .form input[type="submit"]
+  .form input[type="button"]
   {
     width: 70%;
     height:50px;
@@ -172,7 +172,7 @@
   .text--center
   {
     position:relative; 
-    right:200px; 
+    left:200px; 
     top:2px
   }
   
@@ -206,7 +206,7 @@
   .login label,
   .login input[type="text"],
   .login input[type="password"],
-  .login input[type="submit"] {
+  .login input[type="button"] {
     border-radius: 0.25rem;
     border-radius: var(--loginBorderRadus);
     padding: 1rem;
@@ -237,7 +237,7 @@
     background-color: var(--loginInputHoverBackgroundColor);
   }
   
-  .login input[type="submit"] {
+  .login input[type="button"] {
     background-color: #ea4c88;
     background-color: var(--loginSubmitBackgroundColor);
     color: #eee;
@@ -246,8 +246,8 @@
     text-transform: uppercase;
   }
   
-  .login input[type="submit"]:focus,
-  .login input[type="submit"]:hover {
+  .login input[type="button"]:focus,
+  .login input[type="button"]:hover {
     background-color: #d44179;
     background-color: var(--loginSubmitHoverBackgroundColor);
   }
@@ -255,7 +255,7 @@
   .vl
   {
     border-left: 2px solid #d44179;
-    height: 260px;
+    height: 250px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
