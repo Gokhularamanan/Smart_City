@@ -1,28 +1,36 @@
 body {
-    background-color: #262626!important;
+    background-color: #111 !important;
 }
 
 .dashboard-content {
     margin: 80px 80px;
+ 
 }
 
 
 /* breadcrumb style */
+.content-view
+{
+ margin-left: 2.8em;
+ font-size: 17px;
+}
 
 .dashboard-content .breadcrumb {
     padding: 7px 2px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     border-radius: 4px;
     margin: 0;
-    font-size: 12px;
-    margin-left: 0.5em;
+    font-size: 15px;
+    margin-left: 3.2em;
 }
+
 
 .dashboard-content .breadcrumb>li {
     display: inline-block;
     font: normal normal normal 14px/17px Roboto-light;
     color: #020202;
     cursor: pointer;
+    
 }
 
 .dashboard-content .breadcrumb>li+li:before {
@@ -127,6 +135,10 @@ body {
     font: normal normal 300 20px/19px Roboto-light;
 }
 
+.content-view
+{
+    color:white;
+}
 /* Dashboard styles */
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
@@ -214,6 +226,7 @@ p.small {
 
 .card-image {
     margin-top: 18px;
+    /* stroke: #F0F0F0, !important; */
 }
 
 .cardtitle {
@@ -233,7 +246,7 @@ p.small {
     top: 0px;
     max-width: 300px;
     height: 180px;
-    background-color: whitesmoke!important;
+    background-color: #ddd!important;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
