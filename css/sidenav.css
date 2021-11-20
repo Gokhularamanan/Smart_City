@@ -61,6 +61,14 @@ body {
     background-color: rgb(130, 130, 138);
 }
 
+.nav-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+  }
+
+  
+  
 .sidebarMenuInner {
     margin: 0;
     padding: 0;
