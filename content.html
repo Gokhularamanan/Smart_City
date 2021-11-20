@@ -24,23 +24,31 @@
         padding: 20px;
       }
       .dashboard-content {
-          margin: 0px;
+        margin: 0px;
       }
       .dashboard-content .breadcrumb {
-          margin: 0;
+        margin: 0;
       }
       .content-view {
-          margin: 0;
+        margin: 0;
       }
-      </style>
+      .nav-right {
+        float: right;
+        margin-right: 100px;
+        margin-top: 5px;
+      }
+    </style>
   </head>
 
   <body>
     <!-- side nav with header -->
     <div>
       <div class="header">
-        <img class="nav-icon" src="assets/user.svg" alt="UserIcon" />
-        <img class="nav-icon" src="assets/log-out.svg" alt="UserIcon" />
+        <div class="nav-right">
+          <span style="color: white">Welcome Admin</span>
+          <img src="assets/user.svg" style="padding: 10px" alt="UserIcon" />
+          <img src="assets/log-out.svg" style="padding: 10px" alt="UserIcon" />
+        </div>
       </div>
       <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
       <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -67,18 +75,20 @@
     </div>
 
     <div class="main-content">
-        <div class="dashboard-content">
-            <div style="display: flex;justify-content: space-between;">
-                <ol class="breadcrumb ">
-                    <li>Home</li>
-                    <li class="active">Dashboard</li>
-                </ol>
-                
-            </div>
-            <div class="content-header-main">
-                <span class="content-view"> Chart View</span>
-            </div>
-            </div>
+      <div class="dashboard-content">
+        <div style="display: flex; justify-content: space-between">
+          <ol class="breadcrumb">
+            <li>Home</li>
+            <li onclick="window.location.href = 'Dashboard.html';">
+              Dashboard
+            </li>
+            <li class="active">Rain Water</li>
+          </ol>
+        </div>
+        <div class="content-header-main">
+          <span class="content-view"> Rain Water</span>
+        </div>
+      </div>
       <div class="row">
         <div class="col-3 chart-container">
           <canvas height="100" id="myChart"></canvas>
