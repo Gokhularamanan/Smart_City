@@ -242,14 +242,9 @@ p.small {
 }
 
 .card-image {
-<<<<<<< HEAD
     margin-top: 15px;
     height: 80px;
     width: 80px;
-=======
-    margin-top: 18px;
-    /* stroke: #F0F0F0, !important; */
->>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
 }
 
 .cardtitle {
