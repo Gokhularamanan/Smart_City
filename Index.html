@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Smart City </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body class="align">
+
+    <div class="grid">
+
+        <form action="https://httpbin.org/post" method="POST" class="form login">
+
+            <div class="form__field">
+                <label for="login__username">
+              <!-- <svg class="icon"> <use xlink:href="#icon-user"></use> </svg>-->
+               <img class="icon" src="assets/user.svg" alt="UserIcon">
+             <span class="hidden">Username</span></label>
+                <input autocomplete="username" id="username" type="text" name="username" class="form__input" placeholder="Username" required>
+            </div>
+
+            <div class="form__field">
+                <label for="login__password">
+              <!-- <svg class="icon"> <use xlink:href="#icon-lock"></use>  </svg> -->
+               <img class="icon" src="assets/password.svg" alt="UserIcon">
+            <span class="hidden">Password</span></label>
+                <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+            </div>
+
+            <div class="form__field">
+                <!-- <button type="button" value="Login" id="submit" onclick="validate()"><span class="clickme">LOGIN</span></button> -->
+                <input type="submit" onclick="validate()" value="Sign In">
+            </div>
+
+        </form>
+
+        <p class="text--center">Not a member? <a href="#">Sign up now</a> <svg class="icon">
+          <use xlink:href="#icon-arrow-right"></use>
+        </svg></p>
+
+        <div class="vl"></div>
+
+        <!-- <img src="" alt="Smart_City_Icon"> -->
+
+    </div>
+
+    <script>
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "admin" && password == "admin") {
+                window.location = "Dashboard.html"; // Redirecting to other page.
+                return false;
+            } else {
+                attempt--;
+                alert("You have left " + attempt + " attempt;");
+                if (attempt == 0) {
+                    document.getElementById("usrname").disabled = true;
+                    document.getElementById("pwd").disabled = true;
+                    document.getElementById("submit").disabled = true;
+                    return false;
+                }
+            }
+        }
+    </script>
+</body>
