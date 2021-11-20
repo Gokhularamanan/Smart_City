@@ -9,13 +9,14 @@ body {
 
 
 /* breadcrumb style */
+
 .content-view
 {
  margin-left: 2.8em;
  font-size: 17px;
 }
 
-.dashboard-content .breadcrumb{
+.dashboard-content .breadcrumb {
     padding: 7px 2px;
     margin-bottom: 3px;
     border-radius: 4px;
@@ -127,6 +128,9 @@ body {
     
 }
 
+.cardtitle {
+    color: cornflowerblue !important;
+}
 
 
 /* Dashboard styles */
@@ -200,18 +204,16 @@ p.small {
     vertical-align: middle;
 }
 
-.nav-icon
-{
+.nav-icon {
     position: relative;
-   top: 10px;
-   right: -1400px;
+    top: 10px;
+    right: -1400px;
     margin-top: 4px;
     margin-left: 10px;
     height: 2em;
     display: inline-block;
     width: 2em;
-    vertical-align: middle;   
-       
+    vertical-align: middle;
 }
 
 .card-image {
@@ -220,7 +222,7 @@ p.small {
 
 .cardtitle {
     margin-top: 0px;
-    color:#3592fc;
+    color: #333 !important;
 }
 
 .card-text {

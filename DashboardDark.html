@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Dashboard </title>
 
-    <link rel="stylesheet" href="css/dashboarddark.css">
+    <link rel="stylesheet" href="css/Dashboarddark.css">
     <link rel="stylesheet" href="./css/sidenav.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -19,37 +19,48 @@
     <!-- side nav with header -->
     <div>
         <div class="header">
+<<<<<<< HEAD
+            <!-- <div style=""> -->
+            <div class="user-detail" style="display:flex;justify-content: space-between;">
+                <span style="font-size: 20px;color: #FFC200;">Welcome </span>
+                <span style="color:white;">UserName</span>
+                <img class="nav-icon" src="assets/user.svg" alt="UserIcon">
+                <img class="nav-icon" src="assets/log-out.svg" alt="UserIcon"></div>
+=======
             <!-- <div class="user-detail"><span style="font-size: 13px;color: #FFC200;padding-top: 9px;">Welcome </span>
                 <span style="color:white;">UserName</span></div> -->
             <img class="nav-icon" src="assets/user.svg" alt="UserIcon">
             <img class="nav-icon" src="assets/log-out.svg" alt="UserIcon">
             
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
         </div>
-        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-        <label for="openSidebarMenu" class="sidebarIconToggle">
+
+    </div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
         <div class="spinner diagonal part-1"></div>
          <div class="spinner horizontal"></div>
          <div class="spinner diagonal part-2"></div>
   </label>
-  
-  
-        <div id="sidebarMenu">
-            <ul class="sidebarMenuInner">
-                <li><a href="#" target="_blank">Settings</a></li>
-                <li><a href="#" target="_blank">CCTV Camera</a></li>
-                <li><a href="#" target="_blank">Covid-19</a></li>
-                <li><a href="#" target="_blank">Environment</a></li>
-                <li><a href="#" target="_blank">Light</a></li>
 
-                <li><a href="#" target="_blank">Solid Waste Mangement</a></li>
-                <li><a href="#" target="_blank">Traffic</a></li>
-                <li><a href="#" target="_blank">Transport System</a></li>
-                <li><a href="#" target="_blank">Vehicle Parking</a></li>
-                <li><a href="#" target="_blank">Wifi</a></li>
-                <li><a href="#" target="_blank">Weather</a></li>
 
-            </ul>
-        </div>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="#" target="_blank">Settings</a></li>
+            <li><a href="#" target="_blank">CCTV Camera</a></li>
+            <li><a href="#" target="_blank">Covid-19</a></li>
+            <li><a href="#" target="_blank">Environment</a></li>
+            <li><a href="#" target="_blank">Light</a></li>
+
+            <li><a href="#" target="_blank">Solid Waste Mangement</a></li>
+            <li><a href="#" target="_blank">Traffic</a></li>
+            <li><a href="#" target="_blank">Transport System</a></li>
+            <li><a href="#" target="_blank">Vehicle Parking</a></li>
+            <li><a href="#" target="_blank">Wifi</a></li>
+            <li><a href="#" target="_blank">Weather</a></li>
+
+        </ul>
+    </div>
 
 
     </div>
@@ -58,7 +69,7 @@
         <!-- dashboard card view -->
         <div class="dashboard-content">
             <div style="display: flex;justify-content: space-between;">
-                <ol class="breadcrumb">
+                <ol class="breadcrumb ">
                     <li>Home </li>
                     <li class="active">Dashboard</li>
                 </ol>
@@ -77,7 +88,7 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/surveillance-camera.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -98,12 +109,17 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/prevention.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Covid-19</h3>
+                                <div class="cardcontent" style="margin-top:55px !important;display: flex;justify-content: space-between;">
+=======
                                 <h4 class="cardtitle">Covid-19</h4>
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
                                     <img src="./assets/settings.svg" class="icon" alt="...">
@@ -118,7 +134,7 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/location.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -138,7 +154,7 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/24-hours-support.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -158,11 +174,15 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/street-light.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Street Light</h3>
+=======
                                 <h4 class="cardtitle">Light</h4>
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
@@ -178,7 +198,7 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/garbage-truck.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -198,11 +218,15 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/traffic-light.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Traffic signal</h3>
+=======
                                 <h4 class="cardtitle">Traffic</h4>
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
@@ -218,7 +242,7 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/bus-stop.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -238,12 +262,17 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/Energy.svg" class="card-image" alt="...">
+                            <img src="./assets/bolt.png" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Electricity</h3>
+                                <div class="cardcontent" style="margin-top:52px !important;display: flex;justify-content: space-between;">
+=======
                                 <h4 class="cardtitle">Power</h4>
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
                                     <img src="./assets/settings.svg" class="icon" alt="...">
@@ -259,12 +288,17 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/wifi.svg" class="card-image" alt="...">
+                            <img src="./assets/wifi.jpeg" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Wifi</h3>
+                                <div class="cardcontent" style="margin-top:52px !important;display: flex;justify-content: space-between;">
+=======
                                 <h4 class="cardtitle">Wifi</h4>
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
                                     <img src="./assets/settings.svg" class="icon" alt="...">
@@ -279,11 +313,15 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/cloud-drizzle.svg" class="card-image" alt="...">
+                            <img src="./assets/rain.jpeg" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Rain Gauge </h3>
+=======
                                 <h4 class="cardtitle">Rain</h4>
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
@@ -299,11 +337,15 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="./assets/camera.svg" class="card-image" alt="...">
+                            <img src="./assets/watermange.jpeg" class="card-image" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
+<<<<<<< HEAD
+                                <h3 class="cardtitle">Water System</h3>
+=======
                                 <h4 class="cardtitle">CCTV Camera</h4>
+>>>>>>> cd52670dee4b912c1685ba4a4305165ea5b9c96b
                                 <div class="cardcontent" style="display: flex;justify-content: space-between;">
                                     <img src="./assets/eye.svg" class="icon" alt="...">
                                     <a href="#" class="card-text">View </a>
