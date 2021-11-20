@@ -9,14 +9,13 @@ body {
 
 
 /* breadcrumb style */
-
 .content-view
 {
  margin-left: 2.8em;
  font-size: 17px;
 }
 
-.dashboard-content .breadcrumb {
+.dashboard-content .breadcrumb{
     padding: 7px 2px;
     margin-bottom: 3px;
     border-radius: 4px;
@@ -221,7 +220,7 @@ p.small {
 
 .cardtitle {
     margin-top: 0px;
-    color: #333 !important;
+    color:#3592fc;
 }
 
 .card-text {

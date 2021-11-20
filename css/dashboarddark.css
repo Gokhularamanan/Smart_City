@@ -15,7 +15,7 @@ body {
  font-size: 17px;
 }
 
-.dashboard-content .breadcrumb {
+.dashboard-content .breadcrumb{
     padding: 7px 2px;
     margin-bottom: 3px;
     border-radius: 4px;
@@ -24,10 +24,8 @@ body {
     margin-left: 3.2em;
 }
 
-
 .dashboard-content .breadcrumb>li {
     display: inline-block;
-    font: normal normal normal 14px/17px Roboto-light;
     color: #020202;
     cursor: pointer;
     
@@ -42,7 +40,6 @@ body {
 
 .dashboard-content .breadcrumb>.active {
     text-align: left;
-    font: normal normal normal 14px/17px Roboto-light;
     letter-spacing: 0px;
     color: #6785C1;
 }
@@ -70,6 +67,7 @@ body {
 
 .dashboard-content .dark-mode .switchmode {
     margin-top: 2px;
+    font-size: 15px;
 }
 
 .dashboard-content .breadcrumb {
@@ -124,6 +122,7 @@ body {
 
 .dashboard-content .light-mode .switchmode {
     margin-top: 2px;
+    font-size: 15px;
 }
 .user_detail
 {
@@ -231,6 +230,7 @@ p.small {
 
 .cardtitle {
     margin-top: 0px;
+    color:#3592fc;
 }
 
 .card-text {
